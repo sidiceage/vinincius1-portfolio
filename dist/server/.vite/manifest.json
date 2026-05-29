@@ -1,0 +1,116 @@
+{
+  "E:/data/MY DATA/upwork_profile_brazil_Vinicius/site/src/styles.css": {
+    "file": "assets/styles-BhS5ID0L.css",
+    "src": "E:/data/MY DATA/upwork_profile_brazil_Vinicius/site/src/styles.css"
+  },
+  "_server-BeFv9Jac.js": {
+    "file": "assets/server-BeFv9Jac.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js"
+    ]
+  },
+  "_worker-entry-Cv5l_gce.js": {
+    "file": "assets/worker-entry-Cv5l_gce.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-BeFv9Jac.js"
+    ]
+  },
+  "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js": {
+    "file": "assets/empty-plugin-adapters-BFgPZ6_d.js",
+    "name": "empty-plugin-adapters",
+    "src": "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js",
+    "isDynamicEntry": true
+  },
+  "src/assets/project-3.png": {
+    "file": "assets/project-3-GI29jCr2.png",
+    "src": "src/assets/project-3.png"
+  },
+  "src/assets/project-4.png": {
+    "file": "assets/project-4-VYC8ApZa.png",
+    "src": "src/assets/project-4.png"
+  },
+  "src/assets/project-5.png": {
+    "file": "assets/project-5-C1Eaeb1W.png",
+    "src": "src/assets/project-5.png"
+  },
+  "src/assets/project-6.png": {
+    "file": "assets/project-6-D2uKncgT.png",
+    "src": "src/assets/project-6.png"
+  },
+  "src/assets/project-chatbot.png": {
+    "file": "assets/project-chatbot-Dnae1Ki3.png",
+    "src": "src/assets/project-chatbot.png"
+  },
+  "src/assets/project-ecommerce.png": {
+    "file": "assets/project-ecommerce-CsqjOt2A.png",
+    "src": "src/assets/project-ecommerce.png"
+  },
+  "src/assets/vf-logo.webp": {
+    "file": "assets/vf-logo-oXxGzlhX.webp",
+    "src": "src/assets/vf-logo.webp"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-Dwgqc-b_.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-BeFv9Jac.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-BhS5ID0L.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-ClHYkcoM.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-BeFv9Jac.js"
+    ],
+    "assets": [
+      "assets/vf-logo-oXxGzlhX.webp",
+      "assets/project-chatbot-Dnae1Ki3.png",
+      "assets/project-ecommerce-CsqjOt2A.png",
+      "assets/project-3-GI29jCr2.png",
+      "assets/project-4-VYC8ApZa.png",
+      "assets/project-5-C1Eaeb1W.png",
+      "assets/project-6-D2uKncgT.png"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-B-1L_xPO.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-BeFv9Jac.js",
+      "_worker-entry-Cv5l_gce.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-DIUNHr8i.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-Cv5l_gce.js"
+    ]
+  }
+}
